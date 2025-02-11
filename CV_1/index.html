@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <header>
+        <h1>Sebastián E. Jaque Reategui</h1>
+        <p>Breve descripción sobre ti, tu perfil profesional y aspiraciones.</p>
+        <button id="theme-toggle" class="theme-toggle">Modo Oscuro</button>
+    </header>
+    <main>
+        <section id="profile" class="section" data-aos="fade-up">
+            <h2>Resumen de Perfil</h2>
+            <p>Aquí va el resumen de tu perfil...</p>
+        </section>
+        <section id="experience" class="section" data-aos="fade-up">
+            <h2>Experiencia Laboral</h2>
+            <ul>
+                <li><strong>Empresa 1</strong> - Puesto (Año - Año)</li>
+                <li><strong>Empresa 2</strong> - Puesto (Año - Año)</li>
+            </ul>
+        </section>
+        <section id="skills" class="section" data-aos="fade-up">
+            <h2>Habilidades y Conocimientos</h2>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="https://via.placeholder.com/100" alt="Unreal Engine"></div>
+                    <div class="swiper-slide"><img src="https://via.placeholder.com/100" alt="Photoshop"></div>
+                    <div class="swiper-slide"><img src="https://via.placeholder.com/100" alt="3D Maya"></div>
+                    <!-- Agrega más iconos aquí -->
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section id="projects" class="section" data-aos="fade-up">
+            <h2>Proyectos</h2>
+            <div class="project">
+                <img src="https://via.placeholder.com/400" alt="Proyecto 1">
+                <p>Descripción del Proyecto 1</p>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/400" alt="Proyecto 2">
+                <p>Descripción del Proyecto 2</p>
+            </div>
+        </section>
+        <section id="activities" class="section" data-aos="fade-up">
+            <h2>Actividades Actuales</h2>
+            <ul>
+                <li>Participación en el seminario de investigación de la Universidad Norbert Wiener</li>
+                <li>Creando aplicacion para gestion de vuelos internos</li>
+                <li>Estudiando Base de Datos relacionales con SQL</li>
+            </ul>
+        </section>
+        <section id="social" class="section" data-aos="fade-up">
+            <h2>Redes Sociales</h2>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/sjaquer_" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+                <a href="https://www.linkedin.com/in/sjaquer" target="_blank" class="social-icon">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Perú - 2025 </p>
+    </footer>
+    <button id="back-to-top" class="back-to-top">↑</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
